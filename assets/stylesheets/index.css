@@ -12,7 +12,13 @@ li{
 
 a {
     display: block;
-    padding: 8px;
-
+    padding: 5px;
+    margin: 5px;
+    color: #222;
+    text-decoration: none;
 }
 
+.navbar {
+    font-family: aria, sans-serif;
+    font-size: 14px;
+}
