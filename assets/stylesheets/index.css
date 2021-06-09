@@ -2,12 +2,16 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    line-height: 24px;
 }
 
 li{
+    margin: 0;
+    padding: 0;
     display: inline;
     float: left;
-    overflow: hidden;
+    vertical-align: middle;
+
 }
 
 a {
@@ -18,7 +22,15 @@ a {
     text-decoration: none;
 }
 
-.navbar {
+.container {
     font-family: aria, sans-serif;
     font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.GApps {
+    fill: rgb(95, 99, 104);
 }
