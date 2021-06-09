@@ -1,7 +1,5 @@
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     line-height: 24px;
 }
 
@@ -17,20 +15,59 @@ li{
 a {
     display: block;
     padding: 5px;
-    margin: 5px;
     color: #222;
     text-decoration: none;
 }
 
 .container {
-    font-family: aria, sans-serif;
+    font-family: arial, sans-serif;
     font-size: 14px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
+    padding: 6px;
+    height: 60px;
+}
+
+.nav_right {
+    
+}
+
+
+.about {
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.gmail {
+    font-size: 13px;
 }
 
 .GApps {
-    fill: rgb(95, 99, 104);
+    color: #5f6368;
+    padding: 4px;
+}
+
+.GApps:hover {
+    opacity: 1;
+    background-color: rgba(60, 64, 67, 0.08);
+    border-radius: 50%;
+}
+
+.signin-btn {
+    color: #fff;
+    background-color: rgb(43, 125, 233);
+    background-size: auto;
+    border-color: rgba(0, 0, 0, 0.0);
+    border-radius: 4px;
+    box-shadow: rgba(66, 133, 244, 0.3) 0px 1px 2px 0px,
+                rgba(66, 133, 244, 0.15) 0px 1px 3px 1px;
+    margin-left: 8px;
+    margin-right: 8px;
+    min-width: 80px;
+    padding: 9px 15px 9px 15px;
+    font-size: 14px;
 }
