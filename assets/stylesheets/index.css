@@ -1,3 +1,7 @@
+body {
+    min-width: 400px;
+}
+
 ul {
     list-style-type: none;
     line-height: 24px;
@@ -19,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-.container {
+ul.container {
     font-family: arial, sans-serif;
     font-size: 14px;
     display: flex;
@@ -29,11 +33,6 @@ a {
     padding: 6px;
     height: 60px;
 }
-
-.nav_right {
-    
-}
-
 
 .about {
     margin-left: 15px;
@@ -70,4 +69,30 @@ a {
     min-width: 80px;
     padding: 9px 15px 9px 15px;
     font-size: 14px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    box-sizing: border-box;
+}
+
+.spacer {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+
+.Google {
+    max-height:100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
 }
