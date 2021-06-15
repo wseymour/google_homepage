@@ -188,14 +188,12 @@ input {
     color: #202124;
     display: flex;
     justify-content: space-around;
-    width: 30%;
 }
 
 .right-foot {
     color: #202124;
     display: flex;
     justify-content: space-around;
-    min-width: 30%;
 }
 
 .foot-anchor {
